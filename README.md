@@ -15,7 +15,9 @@
   - `typora-setup-x64-1.9.5.exe`：Typora 的安装程序（Windows x64）。
   - `gen-typora-key_v1.0.1.exe`：Typora 的破解工具。
 - `img/目录`：包含typora中的各种图片，确保能够正常显示
-- 项目地址（GitHub）快速链接方式：方便快速访问本项目
+- **项目地址**：
+  - GitHub：[https://github.com/Stone-People-Like/-](https://github.com/Stone-People-Like/-)
+  - Gitee（国内推荐）：[https://gitee.com/Stone-People-Like/Easy-to-teach](https://gitee.com/Stone-People-Like/Easy-to-teach)
 
 
 # 使用 Typora 浏览教学内容 （推荐方式）
@@ -74,16 +76,25 @@ Typora 安装完成后，可以通过以下方式打开教学资料：
    cd C:\Users\admin\Desktop
    ```
 
-3. 克隆仓库：
+3. 克隆仓库（二选一）：
 
-   ```powershell
-   git clone https://github.com/Stone-People-Like/-.git
-   ```
+   - **GitHub 源**：
+     ```powershell
+     git clone https://github.com/Stone-People-Like/-.git
+     ```
+   - **Gitee 源**（国内速度快）：
+     ```powershell
+     git clone https://gitee.com/Stone-People-Like/Easy-to-teach.git
+     ```
 
 4. 进入仓库目录：
 
    ```powershell
-   cd .\-\ 
+   # 如果是从 GitHub 克隆
+   cd ./-
+
+   # 如果是从 Gitee 克隆
+   cd ./Easy-to-teach
    ```
 
 5. 用 Typora 打开 `《网页设计基础》（精简版）.md` 即可开始使用。
