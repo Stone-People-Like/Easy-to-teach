@@ -16,7 +16,7 @@
   - `gen-typora-key_v1.0.1.exe`：Typora 的破解工具。
 - `img/目录`：包含typora中的各种图片，确保能够正常显示
 - **项目地址**：
-  - GitHub：[https://github.com/Stone-People-Like/-](https://github.com/Stone-People-Like/-)
+  - GitHub：[https://github.com/Stone-People-Like/Easy-to-teach](https://github.com/Stone-People-Like/Easy-to-teach)
   - Gitee（国内推荐）：[https://gitee.com/Stone-People-Like/Easy-to-teach](https://gitee.com/Stone-People-Like/Easy-to-teach)
 
 
@@ -76,25 +76,16 @@ Typora 安装完成后，可以通过以下方式打开教学资料：
    cd C:\Users\admin\Desktop
    ```
 
-3. 克隆仓库（二选一）：
+3. 克隆仓库：
 
-   - **GitHub 源**：
-     ```powershell
-     git clone https://github.com/Stone-People-Like/-.git
-     ```
-   - **Gitee 源**（国内速度快）：
-     ```powershell
-     git clone https://gitee.com/Stone-People-Like/Easy-to-teach.git
-     ```
+   ```powershell
+   git clone https://github.com/Stone-People-Like/-.git
+   ```
 
 4. 进入仓库目录：
 
    ```powershell
-   # 如果是从 GitHub 克隆
-   cd ./-
-
-   # 如果是从 Gitee 克隆
-   cd ./Easy-to-teach
+   cd .\-\ 
    ```
 
 5. 用 Typora 打开 `《网页设计基础》（精简版）.md` 即可开始使用。
@@ -108,17 +99,21 @@ git pull
 即可同步最新内容。
 
 
-## 方式二：直接从 GitHub 网页下载压缩包
+## 方式二：直接从 GitHub/Gitee 网页下载压缩包
 
 如果你不熟悉 Git，也可以直接下载 ZIP 压缩包：
 
-1. 打开仓库地址：  
-   `https://github.com/Stone-People-Like/-`
-2. 点击绿色按钮 `Code`。
-3. 选择 `Download ZIP`。
-4. 将下载得到的压缩包解压到任意目录，例如：  
+### Gitee 下载（推荐）
+1. 打开仓库地址：[https://gitee.com/Stone-People-Like/Easy-to-teach](https://gitee.com/Stone-People-Like/Easy-to-teach)
+2. 点击橙色按钮 `克隆/下载` -> `下载 ZIP`。
+
+### GitHub 下载
+1. 打开仓库地址：[https://github.com/Stone-People-Like/Easy-to-teach](https://github.com/Stone-People-Like/Easy-to-teach)
+2. 点击绿色按钮 `Code` -> `Download ZIP`。
+
+3. 将下载得到的压缩包解压到任意目录，例如：  
    `C:\Users\你的用户名\Documents\网页基础精简版`
-5. 用 Typora 打开解压后的 `《网页设计基础》（精简版）.md` 即可。
+4. 用 Typora 打开解压后的 `《网页设计基础》（精简版）.md` 即可。
 
 
 ## 方式三：在多台电脑之间同步
