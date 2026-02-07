@@ -473,7 +473,7 @@
    | `+`           | 表示字符串的连接                               |
    | `*`           | 表示字符串的重复                               |
    | `>`           | 检查一个字符串按字典顺序是否大于另一个字符串。 |
-   | `in, not in`  | 判断字符串中是否包含指定的字符串或字符。       |
+   | `in ，not in` | 判断字符串中是否包含指定的字符串或字符。       |
 
    注意事项：
 
@@ -487,17 +487,17 @@
    | `len()`                   | 返回字符串`str`的**长度**                                    | `len(str)`                              | 11                       |
    | `max()`                   | 返回字符串中**最大**的字母                                   | `max(str)`                              | y                        |
    | `min()`                   | 返回字符串中**最小**的字母                                   | `min(str)`                              | H                        |
-   | `str.replace(old, new)`   | 将字符串中的old(旧字符串)**替换**成 new (新字符串)           | `str.replace('Python','Java')`          | `HelloJava`              |
-   | `str.find(x)`             | 检测字符串中是否包含子字符串x,若存在,**则返回索引值,不存在则返回-1** | `str.find('Java') str.find('Python')`   | -1 5                     |
+   | `str. replace (old, new)` | 将字符串中的old(旧字符串)**替换**成 new (新字符串)           | `str. replace ('Python','Java')`        | `HelloJava`              |
+   | `str. find(x)`            | 检测字符串中是否包含子字符串x,若存在,**则返回索引值,不存在则返回-1** | `str. find('Java') str. find('Python')` | -1 5                     |
    | `','.join(str)`           | 将序列中的元素以指定的字符`(,)`连接,生成一个新的字符串       | `','.join(str)`                         | H,e,1,1,0, P, y,t,h,o, n |
-   | `str.upper()`             | 将字符串中的小写字母**转为大写字母**                         | `str.upper()`                           | `HELLOPYTHON`            |
-   | `str.lower()`             | 将字符串中的大写字母**转为小写字母**                         | `str.lower()`                           | `hellopython`            |
-   | `str.count(x)`            | 统计字符串里某个字符(x)出现的**次数**                        | `str.count('o')`                        | 2                        |
-   | `str.split(x)`            | 以指定分隔符(x)对字符串进行**切片**                          | `str.split('o')`                        | `['Hell', 'Pyth','n']`   |
-   | `str.index(x)`            | 检测字符串中是否包含子字符串x,若存在,**则返回索引值,不存在则报错** |                                         |                          |
-   | `str.strip()`             | 删除字符串**两端**的空格                                     | `str.strip('   abc  ')`                 | `abc`                    |
-   | `str.lstrip()`            | 删除字符串**左端**的空格                                     | `str.lstrip('   abc  ')`                | `abc   `                 |
-   | `str.rstrip()`            | 删除字符串**右端**的空格                                     | `str.rstrip('   abc  ')`                | `   abc`                 |
+   | `str. upper()`            | 将字符串中的小写字母**转为大写字母**                         | `str. upper()`                          | `HELLOPYTHON`            |
+   | `str. lower()`            | 将字符串中的大写字母**转为小写字母**                         | `str. lower()`                          | `hellopython`            |
+   | `str. count(x)`           | 统计字符串里某个字符(x)出现的**次数**                        | `str. count('o')`                       | 2                        |
+   | `str. split(x)`           | 以指定分隔符(x)对字符串进行**切片**                          | `str. split('o')`                       | `['Hell', 'Pyth','n']`   |
+   | `str.index()`             | 检测字符串中是否包含子字符串x,若存在,**则返回索引值,不存在则报错** |                                         |                          |
+   | `str.strip`               | 删除字符串**两端**的空格                                     | `str.strip('   abc  ')`                 | `abc`                    |
+   | `str.ltrip`               | 删除字符串**左端**的空格                                     | `str.ltrip('   abc  ')`                 | `abc   `                 |
+   | `str.rtrip`               | 删除字符串**右端**的空格                                     | `str.rtrip('   abc  ')`                 | `   abc`                 |
 
 5. 字符串的转换
 
@@ -561,7 +561,7 @@
      	代码段1
      ```
 
-  2. 双分支：当条件满足时,执行代码段1;当条件不满足时,执行代码段2。
+  2. 双分之：当条件满足时,执行代码段1;当条件不满足时,执行代码段2。
 
      ```python
      if 条件:				
@@ -601,7 +601,7 @@
    - 格式二
 
      ```python
-     for 迭代变量 in range(start , stop, step):
+     for 迭代变量 in rrange(start , stop, step):
          循环语句
      ```
 
@@ -613,7 +613,31 @@
 
 3. `while`循环
 
+   - 格式一
+
+     ```python
+     while 表达式:
+         循环体语句体
+     ```
+
+     while循环的执行流程为：**先判断条件**，若为真则执行循环体，执行完毕后再次进行条件判断，直到**条件为假时循环结束**。
+
+   - 格式二
+
+     ```python
+     while True:
+         循环语句体
+         break
+     ```
+
+     无限循环的条件始终为真，会一直执行循环体，通常需要在循环体内使用 break 语句来终止循环。
+
 4. `break`语句和`continue`语句
+
+   用在循环体内,控制程序的流程走向。
+
+   - `break` 语句的作用是**终止循环**。
+   - `continue` 语句会跳过本次循环中其后的代码，立即开始下一次循环。
 
 ### 4.3 流程嵌套
 
