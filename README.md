@@ -5,40 +5,51 @@
 当前仓库主要包含以下三个版本的教学资料：
 
 ### 📂 常规概括版
+
 适合日常学习和系统复习，保留了较详细的知识点描述和示例：
+
 - `《网页设计基础》.md`：网页教程核心教学内容。
 - `《Python程序设计基础》.md`：Python 编程基础教程。
 - `《数字媒体技术应用》.md`：数字媒体技术相关教程。
 - `《数据库基础》.md`：数据库基础知识教程。
 - `《网络技术基础》.md`：计算机网络基础教程。
 - `《计算机软硬件技术基础》.md`：计算机软硬件基础教程。
-- `思维导图/` 目录：包含各课程的思维导图图片。
+- `思维导图/` 目录：包含各课程的思维导图图片和 SVG 文件。
 
 ### 📂 超级精简版
+
 内容高度浓缩，表格化处理，适合考前快速查阅和背诵：
+
 - `《网页设计基础》（精简版）.md`：网页教程精简版。
 - `《Python程序设计基础》（精简版）.md`：Python 编程基础精简版教程。
 - `《数字媒体技术应用》（精简版）.md`：数字媒体技术精简版教程。
 - `《数据库基础》（精简版）.md`：数据库基础精简版教程。
 - `《网络技术基础》（精简版）.md`：计算机网络基础精简版教程。
+- `《计算机软硬件基础》（精简版）.md`：计算机软硬件基础精简版教程。
 - `思维导图/` 目录：包含各课程精简版的思维导图图片。
 
 ### 📂 可打印版
-提供PDF格式的教学资料，适合打印阅读：
-- `常规概括/` 目录：包含常规概括版的PDF文件。
-- `超级精简/` 目录：包含超级精简版的PDF文件。
 
-### 🔧 工具与资源
+提供PDF格式的教学资料，适合打印阅读：
+
+- `常规概括/` 目录：包含常规概括版6门课程的 PDF 文件。
+- `超级精简/` 目录：包含超级精简版6门课程的 PDF 文件。
+
+### 📂 资源目录
+
 - `typora/` 目录：包含 Typora 相关工具。
   - `typora-setup-x64-1.9.5.exe`：Typora 的安装程序（Windows x64）。
   - `gen-typora-key_v1.0.1.exe`：Typora 的破解工具。
 - `img/` 目录：包含文档中的各种图片资源。
-- **项目地址**：
-  - GitHub：[https://github.com/Stone-People-Like/Easy-to-teach](https://github.com/Stone-People-Like/Easy-to-teach)
-  - Gitee（国内推荐）：[https://gitee.com/Stone-People-Like/Easy-to-teach](https://gitee.com/Stone-People-Like/Easy-to-teach)
+
+### 🔗 项目地址
+
+- GitHub：[https://github.com/Stone-People-Like/Easy-to-teach](https://github.com/Stone-People-Like/Easy-to-teach)
+- Gitee（国内推荐）：[https://gitee.com/Stone-People-Like/Easy-to-teach](https://gitee.com/Stone-People-Like/Easy-to-teach)
 
 
 # 使用 Typora 浏览教学内容 （推荐方式）
+
 ## 1. 安装 Typora
 
 选择使用本仓库 `typora` 目录中的 `typora-setup-x64-1.9.5.exe`：
@@ -56,7 +67,7 @@ Typora 安装完成后，可以通过以下方式打开教学资料：
 
 1. 启动 Typora。
 2. 在 Typora 中选择：
-   - 菜单：`File` → `Open`（或中文界面中的“文件 → 打开”）
+   - 菜单：`File` → `Open`（或中文界面中的"文件 → 打开"）
 3. 找到本仓库所在目录，例如：
    - `C:\Users\admin\Desktop\教学精简版本`
 4. 根据需要进入 **`常规概括版`** 或 **`超级精简版`** 文件夹。
@@ -64,7 +75,7 @@ Typora 安装完成后，可以通过以下方式打开教学资料：
 
 此时你就可以：
 
-- 以所见即所得的方式阅读整本“教材”；
+- 以所见即所得的方式阅读整本"教材"；
 - 在课堂演示时放大字号、切换主题，提升可读性；
 
 # 线上方式来在线查看资料
@@ -83,7 +94,7 @@ Typora 安装完成后，可以通过以下方式打开教学资料：
 
 # 将本项目部署到自己电脑上
 
-这里的“部署”主要指：把本仓库完整拷贝到你自己的电脑上，并通过 Typora 或其他 Markdown 编辑器进行阅读和使用，而不是部署成网站或服务。
+这里的"部署"主要指：把本仓库完整拷贝到你自己的电脑上，并通过 Typora 或其他 Markdown 编辑器进行阅读和使用，而不是部署成网站或服务。
 
 ## 方式一：通过 Git 克隆仓库（推荐）
 
@@ -131,7 +142,7 @@ git pull
 1. 打开仓库地址：[https://github.com/Stone-People-Like/Easy-to-teach](https://github.com/Stone-People-Like/Easy-to-teach)
 2. 点击绿色按钮 `Code` -> `Download ZIP`。
 
-3. 将下载得到的压缩包解压到任意目录，例如：  
+3. 将下载得到的压缩包解压到任意目录，例如：
    `C:\Users\你的用户名\Documents\教学精简版本`
 4. 进入解压后的文件夹，找到 `常规概括版` 或 `超级精简版` 目录，用 Typora 打开文件即可。
 
