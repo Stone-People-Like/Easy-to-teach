@@ -32,6 +32,7 @@
 - `typora/` 目录：包含 Typora 相关工具。
   - `typora-setup-x64-1.9.5.exe`：Typora 的安装程序（Windows x64）。
   - `gen-typora-key_v1.0.1.exe`：Typora 的破解工具。
+- `各科概括/思维导图/` 目录：包含各课程的思维导图图片和 SVG 文件。
 
 ### 🔗 项目地址
 
