@@ -30,8 +30,11 @@
 ### 📂 资源目录
 
 - `typora/` 目录：包含 Typora 相关工具。
-  - `typora-setup-x64-1.9.5.exe`：Typora 的安装程序（Windows x64）。
-  - `gen-typora-key_v1.0.1.exe`：Typora 的破解工具。
+  - `typora-setup-x64-1.9.5.exe`：[下载地址](https://wwawj.lanzout.com/ibvcg3m0vppc)，密码: 6xsu
+  - `gen-typora-key_v1.0.1.exe`：[下载地址](https://wwawj.lanzout.com/ifxfW3m0vn3i)，密码: 6cwu
+- `软件/` 目录：包含开发工具。
+  - `Git-2.53.0.2-64-bit.exe`：[下载地址](https://wwawj.lanzout.com/igTbz3m0vnfa)，密码: h2wb
+  - `SourceTreeSetup-3.4.30.exe`：[下载地址](https://wwawj.lanzout.com/irTRn3m0vnsd)，密码: dkev
 - `各科概括/思维导图/` 目录：包含各课程的思维导图图片和 SVG 文件。
 
 ### 🔗 项目地址
