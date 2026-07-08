@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="100%" height="auto">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1">
+        <animate attributeName="stop-color" values="#6366F1;#8B5CF6;#A78BFA;#6366F1" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#8B5CF6">
+        <animate attributeName="stop-color" values="#8B5CF6;#A78BFA;#6366F1;#8B5CF6" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#C084FC">
+        <animate attributeName="stop-color" values="#C084FC;#6366F1;#8B5CF6;#C084FC" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="30%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="50%" stop-color="rgba(255,255,255,0.15)"/>
+      <stop offset="70%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+
+    <style>
+      @keyframes wave1 {
+        0%   { d: path("M0,180 C200,320 400,40  600,180 C800,320 1000,40  1200,180 L1200,220 L0,220 Z"); }
+        25%  { d: path("M0,180 C200,120 400,280 600,180 C800,80  1000,280 1200,180 L1200,220 L0,220 Z"); }
+        50%  { d: path("M0,180 C200,60  400,320 600,180 C800,60  1000,320 1200,180 L1200,220 L0,220 Z"); }
+        75%  { d: path("M0,180 C200,260 400,100 600,180 C800,280 1000,100 1200,180 L1200,220 L0,220 Z"); }
+        100% { d: path("M0,180 C200,320 400,40  600,180 C800,320 1000,40  1200,180 L1200,220 L0,220 Z"); }
+      }
+      @keyframes wave2 {
+        0%   { d: path("M0,200 C300,100 500,300 800,200 C1000,80  1100,300 1200,200 L1200,220 L0,220 Z"); }
+        25%  { d: path("M0,200 C300,280 500,120 800,200 C1000,300 1100,100 1200,200 L1200,220 L0,220 Z"); }
+        50%  { d: path("M0,200 C300,320 500,60  800,200 C1000,320 1100,60  1200,200 L1200,220 L0,220 Z"); }
+        75%  { d: path("M0,200 C300,120 500,280 800,200 C1000,100 1100,300 1200,200 L1200,220 L0,220 Z"); }
+        100% { d: path("M0,200 C300,100 500,300 800,200 C1000,80  1100,300 1200,200 L1200,220 L0,220 Z"); }
+      }
+      @keyframes wave3 {
+        0%   { d: path("M0,210 C250,80  450,320 700,210 C950,100 1100,310 1200,210 L1200,220 L0,220 Z"); }
+        33%  { d: path("M0,210 C250,310 450,100 700,210 C950,300 1100,90  1200,210 L1200,220 L0,220 Z"); }
+        66%  { d: path("M0,210 C250,140 450,280 700,210 C950,120 1100,280 1200,210 L1200,220 L0,220 Z"); }
+        100% { d: path("M0,210 C250,80  450,320 700,210 C950,100 1100,310 1200,210 L1200,220 L0,220 Z"); }
+      }
+      @keyframes shimmer {
+        from { transform: translateX(-100%); }
+        to   { transform: translateX(200%); }
+      }
+      @keyframes glow {
+        0%, 100% { opacity: 0.9; }
+        50%      { opacity: 1; }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50%      { transform: translateY(-3px); }
+      }
+      @keyframes subtitle-fade {
+        0%, 100% { opacity: 0.7; }
+        50%      { opacity: 0.95; }
+      }
+
+      .w1 { animation: wave1 3.5s ease-in-out infinite; }
+      .w2 { animation: wave2 3s ease-in-out infinite; }
+      .w3 { animation: wave3 3.8s ease-in-out infinite; }
+      .shimmer-rect { animation: shimmer 3.5s ease-in-out infinite; }
+      .title { animation: glow 2.5s ease-in-out infinite, float 3.5s ease-in-out infinite; }
+      .subtitle { animation: subtitle-fade 3s ease-in-out infinite; }
+    </style>
+
+    <clipPath id="banner-clip">
+      <rect x="0" y="0" width="1200" height="220"/>
+    </clipPath>
+  </defs>
+
+  <!-- 背景 -->
+  <rect x="0" y="0" width="1200" height="220" fill="url(#grad)"/>
+
+  <!-- 波浪层 3（最底层） -->
+  <path class="w3" d="M0,210 C250,80 450,320 700,210 C950,100 1100,310 1200,210 L1200,220 L0,220 Z" fill="url(#grad)" opacity="0.3"/>
+
+  <!-- 波浪层 2（中层） -->
+  <path class="w2" d="M0,200 C300,100 500,300 800,200 C1000,80 1100,300 1200,200 L1200,220 L0,220 Z" fill="url(#grad)" opacity="0.5"/>
+
+  <!-- 波浪层 1（顶层） -->
+  <path class="w1" d="M0,180 C200,320 400,40 600,180 C800,320 1000,40 1200,180 L1200,220 L0,220 Z" fill="url(#grad)" opacity="0.7"/>
+
+  <!-- 光泽扫过效果 -->
+  <g clip-path="url(#banner-clip)">
+    <rect class="shimmer-rect" x="-1200" y="0" width="1200" height="220" fill="url(#shimmer)"/>
+  </g>
+
+  <!-- 装饰圆点 -->
+  <circle cx="100" cy="60" r="4" fill="rgba(255,255,255,0.2)">
+    <animate attributeName="r" values="4;6;4" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="250" cy="40" r="3" fill="rgba(255,255,255,0.15)">
+    <animate attributeName="r" values="3;5;3" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.15;0.35;0.15" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1050" cy="50" r="5" fill="rgba(255,255,255,0.2)">
+    <animate attributeName="r" values="5;7;5" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="900" cy="30" r="3" fill="rgba(255,255,255,0.18)">
+    <animate attributeName="r" values="3;5;3" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.18;0.35;0.18" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- 标题文字 -->
+  <text class="title" x="600" y="88" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="bold" fill="white" letter-spacing="4">
+    Easy to Teach
+  </text>
+
+  <!-- 副标题 -->
+  <text class="subtitle" x="600" y="130" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="rgba(255,255,255,0.85)" letter-spacing="6">
+    中职教育技能教材 · 精简版
+  </text>
+
+  <!-- 装饰线 -->
+  <line x1="420" y1="148" x2="780" y2="148" stroke="rgba(255,255,255,0.3)" stroke-width="1.5">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite"/>
+  </line>
+</svg>

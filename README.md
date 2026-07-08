@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Easy+to+Teach;%E4%B8%AD%E8%81%8C%E6%95%99%E8%82%B2%E6%8A%80%E8%83%BD%E6%95%99%E6%9D%90" alt="Typing SVG" />
+<img src="./header-banner.svg" alt="Easy to Teach" width="100%" />
 
 <p>
   <em>更精简、更直观、更高效 — 让每一门课都触手可及</em>
